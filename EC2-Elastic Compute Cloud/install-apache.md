@@ -1,6 +1,6 @@
 # Instalar Apache na instancia EC2
 ## acessar a internet pelas configurações do apache
-- instancia criar Amazon Linux 2 AMI (HVM), SSD Volume Type 
+- instancia Amazon Linux 2 AMI (HVM), SSD Volume Type 
 ## Acessar EC2
 - no terminal
 ### Permitir acesso
@@ -20,7 +20,7 @@ curl localhost:80
 - no browser:
 http://IPpuiblic:80
 ### Configurar visulização do browser
-- no terminal da instancia
+- no terminal da instancia</br>
 echo "Hello World" > /var/www/html/index.html
-- ou
+- ou </br>
 echo "Hellow World from $(hostname -f)" > /var/www/html/index.html
